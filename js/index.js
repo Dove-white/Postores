@@ -1,7 +1,7 @@
 let menuBtn = document.querySelector(".menu__bar");
 let listContainer = document.querySelector(".for__phone");
 let myList = false;
-listContainer.style.left = "750px";
+listContainer.style.left = "1150px";
 
 function menuSection() {
     if (myList == false) {
@@ -9,7 +9,7 @@ function menuSection() {
         myList = true;
     }
     else if (myList == true) {
-        listContainer.style.left = "750px"; 
+        listContainer.style.left = "1150px"; 
         myList = false;
     }
 }
