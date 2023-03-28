@@ -1,15 +1,15 @@
 let menuBtn = document.querySelector(".menu__bar");
-let listContainer = document.querySelector(".phone__nav__items");
+let listContainer = document.querySelector(".for__phone");
 let myList = false;
-listContainer.style.marginLeft = "-750px";
+listContainer.style.left = "750px";
 
 function menuSection() {
     if (myList == false) {
-        listContainer.style.marginLeft = "0px"; 
+        listContainer.style.left = "0"; 
         myList = true;
     }
     else if (myList == true) {
-        listContainer.style.marginLeft = "-750px"; 
+        listContainer.style.left = "750px"; 
         myList = false;
     }
 }
