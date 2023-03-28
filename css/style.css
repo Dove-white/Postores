@@ -22,7 +22,6 @@
 /* ___________for-phone_________ */
 
 @media only screen and (max-width: 460px) {
-
   .main__heading__btn__container {
     display: flex;
     flex-wrap: wrap;
@@ -43,31 +42,25 @@
   .introducing__image {
     width: 100%;
   }
-
 }
 
 @media only screen and (min-width: 461px) {
-  
   .services__heading__text {
     display: none;
   }
-  
 }
 
 @media only screen and (max-width: 700px) {
-  
   .main__heading {
     font-weight: 600 !important;
   }
-  
+
   .main__heading__text {
     padding: 0 2%;
   }
-
 }
 
 @media only screen and (max-width: 850px) {
-
   .nav__container {
     padding: 10px 8% !important;
   }
@@ -77,13 +70,13 @@
     top: 65px;
     width: 100% !important;
     height: 100vh !important;
-    background-color: #d9edffc1;
+    background-color: rgba(255, 255, 255, 0.932);
   }
 
   .for__big__screen {
     display: none;
   }
-  
+
   .nave__list__container {
     padding: 2% 0px !important;
     width: 100% !important;
@@ -94,11 +87,51 @@
   .menu__bar {
     position: absolute;
     right: 0;
-    padding-right: 8%;
+    padding-right: 7.5%;
   }
 
-  .fa-bars {
+  .menu__bar2 {
+    position: absolute;
+    right: 45%;
+    top: 300px;
+  }
+
+  .fa-bars,.fa-regular {
     font-size: 22px;
+  }
+
+  .line1,.line2,.line3 {
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 8px;
+  }
+
+  .line4,.line5 {
+    width: 40px;
+    height: 4px;
+    background-color: black;
+  }
+
+  .line4 {
+    margin-bottom: 20px;
+    transform: translate(0px,12px)rotate(45deg);
+  }
+
+  .line5 {
+    transform: translate(0px,-12px)rotate(-45deg);
+  }
+
+  .nav__link__important {
+    padding: 0 30%;
+  }
+
+  .nav__link {
+    padding-right: 90%;
+  }
+
+  .nave__list__container:hover {
+    border: none !important;
   }
 
   .nave__list__container__important {
@@ -115,8 +148,8 @@
 
   .nav__items {
     flex-direction: column;
-    margin-left: -30px;
-    margin-right: 15px;
+    margin-left: 2% !important;
+    margin-right: 8%;
   }
 
   .main__heading__form__section {
@@ -129,12 +162,12 @@
     align-items: center;
     text-align: center;
   }
-  
+
   .card__container {
     justify-content: center !important;
   }
 
-  .image__content2{
+  .image__content2 {
     display: none;
   }
 
@@ -169,7 +202,6 @@
 }
 
 @media only screen and (min-width: 851px) {
-
   .menu__bar {
     display: none;
   }
@@ -192,11 +224,11 @@
     display: grid;
     gap: 10px;
   }
-  
+
   .footer {
     padding-top: 40px;
   }
-  
+
   .gallery__heading {
     margin-bottom: 60px;
   }
@@ -212,9 +244,7 @@
   .image__2 {
     width: 100%;
   }
-
 }
-
 
 /* ______________________________heading____________________________________ */
 
@@ -268,7 +298,7 @@
 }
 
 .nave__list__container {
-  padding: 2% 0;
+  padding: 1% 0;
   width: 18%;
   min-width: 80px;
   height: auto;
