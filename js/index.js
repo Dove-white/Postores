@@ -9,6 +9,7 @@ function menuSection() {
         listContainer.style.left = "0";
         menuBtn.style.opacity = "0";
         menuBtn2.style.opacity = "1";
+        listContainer.style.transition = "0.3s ease-in";
         myList = true;
     }
     else if (myList == true) {
