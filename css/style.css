@@ -183,9 +183,10 @@
   }
 
   .youtube__icon {
-    margin-left: 30%;
+    /* margin-left: 30%;
     margin-top: -50px;
-    position: relative !important;
+    position: relative !important; */
+    display: none !important;
   }
 
   .image__content2 {
