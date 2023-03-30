@@ -69,7 +69,7 @@
     top: 0;
     width: 100% !important;
     height: 100vh !important;
-    background-color: rgba(255, 255, 255, 0.898);
+    background-color: rgba(255, 255, 255, 0.792);
     padding-top: 64px;
   }
 
@@ -92,27 +92,12 @@
 
   .menu__bar2 {
     position: absolute;
-    right: 8%;
+    right: 7.5%;
     top: 24px;
   }
 
-  .fa-bars {
+  .fa-bars,.fa-xmark {
     font-size: 22px;
-  }
-
-  .line4,.line5 {
-    width: 30px;
-    height: 3px;
-    background-color: rgb(31, 31, 31);
-  }
-
-  .line4 {
-    margin-bottom: 20px;
-    transform: translate(0px,12px)rotate(45deg);
-  }
-
-  .line5 {
-    transform: translate(0px,-12px)rotate(-45deg);
   }
 
   .nav__link__important {
@@ -121,20 +106,20 @@
 
   .nav__list {
     background-color: rgba(255, 255, 255, 0.854);
+    padding: 20px 0;
   }
 
   .nav__list1 {
-    padding-top: 10px;
     border-radius: 4px 4px 0 0;
   }
 
   .nav__list3 {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   .nav__list__important {
     background-color: var(--orange);
-    padding: 1px 0;
+    padding: 3px 0;
     border-radius: 4px;
   }
 
