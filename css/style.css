@@ -194,6 +194,10 @@
     margin: -90px 0 24px 0;
   }
 
+  .card {
+    width: 100% !important;
+  }
+
   .youtube__icon {
     display: none !important;
   }
@@ -338,6 +342,7 @@
   min-width: 80px;
   height: auto;
   text-align: center;
+  border: 1.5px solid transparent;
 }
 
 .nav__link {
@@ -567,7 +572,7 @@
 .card {
   background: #d9edff;
   border-radius: 30px;
-  width: 342px;
+  width: 30%;
   height: auto;
 }
 

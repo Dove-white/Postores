@@ -40,7 +40,8 @@ function readMore() {
         readMoreContainer.style.border = "1px solid #00a0c1";
         readMoreCross.style.opacity = "1";
         readMoreText.style.opacity = "1";
-        listContainer.style.transition = "0.1s ease-out";
+        readMoreText.style.transition = "2s ease";
+        // listContainer.style.transition = "20s ease-out";
         myList = true;
     }
     else if (myList == true) {
@@ -49,6 +50,7 @@ function readMore() {
         readMoreContainer.style.border = "none";
         readMoreCross.style.opacity = "0";
         readMoreText.style.opacity = "0";
+        readMoreText.style.transition = "none";
         myList = false;
     }
 }
