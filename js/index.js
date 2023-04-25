@@ -28,43 +28,14 @@ let secondaryBtn = document.querySelector(".btn__secondary");
 let readMoreContainer = document.querySelector(".learn__more__container");
 let readMoreCross = document.querySelector(".read__more__cross");
 let readMoreText = document.querySelector(".read__more__text");
-// readMoreContainer.style.width = "0";
-// readMoreContainer.style.height = "0";
-// readMoreCross.style.opacity = "0";
-// readMoreText.style.opacity = "0";
-
-// function readMore() {
-//     if (myList == false) {
-//         readMoreContainer.style.width = "60%";
-//         readMoreContainer.style.height = "60%";
-//         readMoreContainer.style.border = "1px solid #00a0c1";
-//         readMoreCross.style.opacity = "1";
-//         readMoreText.style.opacity = "1";
-//         readMoreText.style.transition = "2s ease";
-//         // listContainer.style.transition = "20s ease-out";
-//         myList = true;
-//     }
-//     else if (myList == true) {
-//         readMoreContainer.style.width = "0";
-//         readMoreContainer.style.height = "0";
-//         readMoreContainer.style.border = "none";
-//         readMoreCross.style.opacity = "0";
-//         readMoreText.style.opacity = "0";
-//         readMoreText.style.transition = "none";
-//         myList = false;
-//     }
-// }
-
-// secondaryBtn.onclick = readMore;
-// readMoreCross.onclick = readMore;
 
 secondaryBtn.addEventListener('click', () => {
     readMoreContainer.classList.add('active-popup');
     readMoreCross.classList.add('active-popup');
-    readMoreContainer.style.width = "60%";
-    readMoreContainer.style.height = "60%";
+    readMoreContainer.style.width = "100%";
+    readMoreContainer.style.height = "100%";
     readMoreCross.style.opacity = "1";
-    readMoreContainer.style.border = "1px solid #00a0c1";
+    // readMoreContainer.style.border = "1px solid #00a0c1";
 });
 
 readMoreCross.addEventListener('click', () => {
