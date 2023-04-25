@@ -457,6 +457,12 @@
   left: 20%;
   background-color: var(--main-color);
   border: none;
+  transform: scale(0);
+  transition: transform .5s ease;
+}
+
+.learn__more__container.active-popup {
+  transform: scale(1);
 }
 
 .read__more__cross {
@@ -464,6 +470,11 @@
   top: 45%;
   left: 50%;
   color: var(--blue);
+  transform: scale(0);
+}
+
+.read__more__cross.active-popup {
+  transform: scale(1);
 }
 
 .read__more__text {
