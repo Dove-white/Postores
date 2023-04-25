@@ -64,6 +64,7 @@ secondaryBtn.addEventListener('click', () => {
     readMoreContainer.style.width = "60%";
     readMoreContainer.style.height = "60%";
     readMoreCross.style.opacity = "1";
+    readMoreContainer.style.border = "1px solid #00a0c1";
 });
 
 readMoreCross.addEventListener('click', () => {
